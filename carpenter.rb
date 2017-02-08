@@ -5,11 +5,11 @@
 class Carpenter < Formula
   desc ""
   homepage ""
-	version "v0.4.0"
+	version "v0.4.1"
 
 	if OS.mac?
 	  url "https://github.com/dev-cloverlab/carpenter/releases/download/" + version + "/carpenter_darwin_amd64.zip"
-	  sha256 "c950794caa9877de4c1c5d7c6286299013fb636d80495992224c559e113588f3"
+	  sha256 "8b3cfa7cd3b316cbe41375f73efe6df78cdcb47be5ee19089031dd828a713b81"
 	end
 
   # depends_on "cmake" => :build
